@@ -19,7 +19,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className="dark:bg-black">
+      <body className="light:bg-white">
         <Providers>
           <Header />
           {children}

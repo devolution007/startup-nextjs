@@ -30,4 +30,19 @@
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
   }
+ 
+  .w-60 {
+    width: 10rem!important;
 }
+.fill-current {
+  fill: white!important;
+}
+.lg\:pb-28 {
+  padding-bottom: 1rem!important;
+}
+
+
+
+
+}
+

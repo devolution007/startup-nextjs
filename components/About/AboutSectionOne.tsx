@@ -20,16 +20,24 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
+      <SectionTitle
+          title="About"
+          paragraph=""
+          center
+          mb="80px"
+        />
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title=""
+                paragraph="
+                MS Metals is your premier miscellaneous and structural metal company. With a team of seasoned professionals boasting extensive experience in construction,
+                engineering, and project management, we are your go-to experts for all things metal fabrication. From intricate architectural details to robust structural components, we specialize in delivering top-notch solutions tailored to your unique needs. Our commitment to excellence and attention to detail ensure that every project is executed with utmost precision and craftsmanship. Trust MS Metals to bring your metal visions to reality, as we combine our expertise with innovative techniques to deliver superior quality products on time, every time."
                 mb="44px"
               />
 
-              <div
+              {/* <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
@@ -46,7 +54,7 @@ const AboutSectionOne = () => {
                     <List text="Developer friendly" />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
